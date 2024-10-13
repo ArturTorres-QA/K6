@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "url":"/api/games"
+    },
+    "response":{
+        "status": 200,
+        "bodyFileName":"games.json",
+        "headers":{
+            "Content-Type": "application/json"
+        }
+    }
+}

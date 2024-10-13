@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "god of war",
+        "model": "aventura",
+        "year": "2018"
+    },
+    {
+        "id": 2,
+        "name": "spider man2",
+        "model": "ação aventura",
+        "year": "2021"
+    },
+    {
+        "id": 3,
+        "name": "elden ring",
+        "model": "souls",
+        "year": "2019"
+    },
+    {
+        "id": 4,
+        "name": "gran turismo",
+        "model": "corriga",
+        "year": "2017"
+    },
+    {
+        "id": 5,
+        "name": "shin megami tensei",
+        "model": "rpg",
+        "year": "2022"
+    }
+]

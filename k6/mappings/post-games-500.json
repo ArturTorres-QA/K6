@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url":"/api/games",
+        "bodyPatterns":[
+            {
+                "matchesJsonPath":"$[?(@.name == 'shin megami tensei')]"
+            },
+            {
+                "matchesJsonPath":"$[?(@.model)]"
+            },
+            {
+                "matchesJsonPath":"$[?(@.year)]"
+            }
+        ]
+    },
+    "response":{
+        "status": 500,
+        "body": "{\"message\": \"Internal server error: name 'shin megami tensei' is not allowed.\"}",
+        "headers":{
+            "Content-Type": "application/json"
+        }
+    }
+}

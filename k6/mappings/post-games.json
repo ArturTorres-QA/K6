@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url":"/api/games",
+        "bodyPatterns":[
+            {
+                "matchesJsonPath":"$[?(@.name == 'god of war')]"
+            },
+            {
+                "matchesJsonPath":"$[?(@.model)]"
+            },
+            {
+                "matchesJsonPath":"$[?(@.year)]"
+            }
+        ]
+    },
+    "response":{
+        "status": 201,
+        "body": "{\"message\": \"jogo successfully registered!\", \"gamesId\": 6}",
+        "headers":{
+            "Content-Type": "application/json"
+        }
+    }
+}
